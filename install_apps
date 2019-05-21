@@ -1,10 +1,16 @@
 #!/bin/bash
 
-pacman -S --needed --noconfirm \
-  vim code \
-  virtualbox virtualbox-guest-iso \
-  remmina \
-  gnu-netcat
+APPS=""
+APPS+=" vim code"              # editors
+APPS+=" virtualbox "           # virtual os for windows
+APPS+=" virtualbox-guest-iso"
+APPS+=" remmina"               # remote desktop
+APPS+=" mono dotnet-sdk"       # ionide seems to need global install
+APPS+=" gnu-netcat"            # nc used in mock-server
+APPS+=" inotify-tools"         # file watching used in elixir
+APPS+=" yarn"                  # doesn't come with node
+APPS+=" git tk gitg aspell-en" # gitk needs the tk, git-gui the aspell
+pacman -S --needed --noconfirm $APPS
 
 # aur
 #pamac build \
