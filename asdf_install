@@ -18,3 +18,7 @@ asdf plugin-add erlang          https://github.com/asdf-vm/asdf-erlang.git
 asdf plugin-add mono
 asdf plugin-add nodejs          https://github.com/asdf-vm/asdf-nodejs.git
 asdf plugin-add ruby            https://github.com/asdf-vm/asdf-ruby
+
+# Node requires this
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+
