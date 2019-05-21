@@ -3,6 +3,7 @@
 ./uninstall_crap
 ./install_apps
 ./configure_git
+./install_docker
 ./clone_projects
 ./asdf_install
 

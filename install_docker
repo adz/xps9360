@@ -1,0 +1,11 @@
+#!/bin/bash
+pacman -S --needed --noconfirm \
+  docker pigz
+
+systemctl enable docker.service
+systemctl start docker.service
+
+# Add to docker group
+usermod -a -G docker $USER
+# login to new group (avoid logout/login)
+newgrp docker
