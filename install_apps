@@ -1,0 +1,14 @@
+#!/bin/bash
+
+pacman -S --needed --noconfirm \
+  vim code \
+  virtualbox virtualbox-guest-iso \
+  remmina \
+  gnu-netcat
+
+# aur
+#pamac build \
+#  slack-desktop \
+#  remmina-plugin-teamviewer remmina-plugin-rdesktop \
+#  google-chrome
+

@@ -1,0 +1,9 @@
+#!/bin/bash
+git config --global user.email "adzdavies@gmail.com"
+git config --global user.name "Adam Davies"
+
+git config --global alias.cleanup "!git branch --merged | grep -v -P '^\\*|master|develop' | xargs -n1 -r git branch -d"
+
+git config --global diff.tool vimdiff
+git config --global core.editor vim
+

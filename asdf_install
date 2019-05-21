@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Install
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+(cd ~/.asdf && git checkout "$(git describe --abbrev=0 --tags)")
+ 
+# Add to shell
+echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc
+echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
+
+. ~/.bashrc
+
+# Add plugins
+asdf plugin-add dotnet-core     https://github.com/emersonsoares/asdf-dotnet-core.git
+asdf plugin-add elixir          https://github.com/asdf-vm/asdf-elixir
+asdf plugin-add elm             https://github.com/vic/asdf-elm.git
+asdf plugin-add erlang          https://github.com/asdf-vm/asdf-erlang.git
+asdf plugin-add mono
+asdf plugin-add nodejs          https://github.com/asdf-vm/asdf-nodejs.git
+asdf plugin-add ruby            https://github.com/asdf-vm/asdf-ruby

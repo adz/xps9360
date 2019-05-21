@@ -1,0 +1,9 @@
+#!/bin/bash
+
+./uninstall_crap
+./install_apps
+./configure_git
+./clone_projects
+./asdf_install
+
+

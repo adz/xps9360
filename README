@@ -1,0 +1,25 @@
+# HowTo Setup my Dell Xps 13
+
+Step 1: Install Manjaro Gnome 18.0.4
+Step 2: Run the manual steps
+Step 3: Run the auto steps in ./install
+
+# Manual steps:
+
+Tweaks > Keyboard & Mouse > Additional Layout Options > Map Caps -> Ctrl
+Enable AUR
+Use manjaro tool to install latest kernel (5.1)
+
+# Bashrc
+TODO: Document changes to .bashrc
+
+# Vs Code plugins
+ElixirLinter
+elm
+Ionide-fsharp
+Vim
+vscode-elixir
+XML Tools
+
+# Dotfiles
+TODO: dotfiles

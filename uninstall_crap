@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Uninstall help files, evolution, empathy, steam
+pacman -R \
+  gnome-user-docs gnome-getting-started-docs yelp \
+  evolution \
+  empathy \
+  steam-devices steam-manjaro

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Dependencies for erlang, ruby
+pacman -S --needed --noconfirm \
+  base-devel ncurses glu mesa wxgtk2 libpng libssh \
+  libffi libyaml zlib openssl
+
