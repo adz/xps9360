@@ -6,12 +6,17 @@ Step 3: Run the auto steps in ./install
 
 # Manual steps:
 
-Tweaks > Keyboard & Mouse > Additional Layout Options > Map Caps -> Ctrl
-Enable AUR
-Use manjaro tool to install latest kernel (5.1)
+* Tweaks > Keyboard & Mouse > Additional Layout Options > Map Caps -> Ctrl
+* Enable AUR in GUI pamac
+* Use manjaro tool to install latest kernel (5.1)
 
 # Bashrc
+
 TODO: Document changes to .bashrc
+
+Source asdf
+Add dotnet to path, and set root
+Add ~/tools/bin to PATH
 
 # Vs Code plugins
 ElixirLinter
