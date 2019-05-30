@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TRIM helps use SSD more efficiently and extend it's life
+sudo systemctl enable fstrim.timer
 
 ./uninstall_crap
 ./install_apps
