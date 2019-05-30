@@ -15,4 +15,11 @@ sudo systemctl enable fstrim.timer
 ./asdf_dependencies
 ./asdf_install
 
+# Tools (put on path)
+mkdir -p ~/tools/bin
+
+# eb cli tool
+(cd ~/tools && git clone git@github.com:adz/awsebcli_docker)
+ln -s ~/tools/awsebcli_docker/eb ~/tools/bin/eb
+
 
