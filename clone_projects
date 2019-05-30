@@ -1,5 +1,8 @@
 #!/bin/bash
-(cd ~/projects &&  git clone git@gitlab.com:mitimes/timesheets4.git)
+
+# Work projects
+mkdir -p ~/projects
+(cd ~/projects && git clone git@gitlab.com:mitimes/timesheets4.git)
 
 (cd ~/projects && git clone git@gitlab.com:mitimes/miexchange.git)
 (cd ~/projects && git clone git@gitlab.com:mitimes/exchangewatch-t4.git)
@@ -10,3 +13,4 @@
 (cd ~/projects && git clone git@gitlab.com:mitimes/compliance_portal.git)
 
 (cd ~/projects && git clone git@gitlab.com:mitimes/worksite-integration.git)
+
