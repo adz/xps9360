@@ -10,11 +10,15 @@ APPS+=" gnu-netcat"            # nc used in mock-server
 APPS+=" inotify-tools"         # file watching used in elixir
 APPS+=" yarn"                  # doesn't come with node
 APPS+=" git tk gitg aspell-en" # gitk needs the tk, git-gui the aspell
+APPS+=" dos2unix"              # sometimes nice
+APPS+=" pgadmin4 dbeaver"      # postgres & generic DB client
 pacman -S --needed --noconfirm $APPS
 
 # aur
 #pamac build \
 #  slack-desktop \
 #  remmina-plugin-teamviewer remmina-plugin-rdesktop \
-#  google-chrome
+#  google-chrome \
+#  spotify \
+#  flameshot
 
