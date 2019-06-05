@@ -7,6 +7,7 @@ sudo systemctl enable fstrim.timer
 ./install_apps
 
 ./configure_git
+./configure_dotfiles
 
 ./install_docker
 
