@@ -12,6 +12,7 @@ APPS+=" yarn"                  # doesn't come with node
 APPS+=" git tk gitg aspell-en" # gitk needs the tk, git-gui the aspell
 APPS+=" dos2unix"              # sometimes nice
 APPS+=" pgadmin4 dbeaver"      # postgres & generic DB client
+APPS+=" bash-completion"       # or git cmds don't complete
 pacman -S --needed --noconfirm $APPS
 
 # aur
