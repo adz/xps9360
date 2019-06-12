@@ -8,6 +8,7 @@ sudo systemctl enable fstrim.timer
 
 ./configure_git
 ./configure_dotfiles
+./configure_vim
 
 ./install_docker
 

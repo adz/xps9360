@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Janus
+sudo pacman -S rake
+curl -L https://bit.ly/janus-bootstrap | bash
